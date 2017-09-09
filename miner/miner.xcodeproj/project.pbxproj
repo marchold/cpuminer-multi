@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4EE34021F648627003A22BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34011F648627003A22BD /* main.m */; };
+		A4EE34121F64864B003A22BD /* cpu-miner.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE340D1F64864B003A22BD /* cpu-miner.c */; };
+		A4EE34131F64864B003A22BD /* cryptonight_aesni.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE340E1F64864B003A22BD /* cryptonight_aesni.c */; };
+		A4EE34141F64864B003A22BD /* cryptonight_common.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE340F1F64864B003A22BD /* cryptonight_common.c */; };
+		A4EE34151F64864B003A22BD /* cryptonight_lobotomized.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34101F64864B003A22BD /* cryptonight_lobotomized.c */; };
+		A4EE34161F64864B003A22BD /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34111F64864B003A22BD /* util.c */; };
+		A4EE34241F6486D6003A22BD /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE341E1F6486D6003A22BD /* dump.c */; };
+		A4EE34251F6486D6003A22BD /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE341F1F6486D6003A22BD /* hashtable.c */; };
+		A4EE34261F6486D6003A22BD /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34201F6486D6003A22BD /* load.c */; };
+		A4EE34271F6486D6003A22BD /* strbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34211F6486D6003A22BD /* strbuffer.c */; };
+		A4EE34281F6486D6003A22BD /* utf.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34221F6486D6003A22BD /* utf.c */; };
+		A4EE34291F6486D6003A22BD /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34231F6486D6003A22BD /* value.c */; };
+		A4EE343B1F6486E7003A22BD /* c_blake256.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE342A1F6486E7003A22BD /* c_blake256.c */; };
+		A4EE343C1F6486E7003A22BD /* c_groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE342C1F6486E7003A22BD /* c_groestl.c */; };
+		A4EE343D1F6486E7003A22BD /* c_jh.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE342E1F6486E7003A22BD /* c_jh.c */; };
+		A4EE343E1F6486E7003A22BD /* c_keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34301F6486E7003A22BD /* c_keccak.c */; };
+		A4EE343F1F6486E7003A22BD /* c_skein.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34321F6486E7003A22BD /* c_skein.c */; };
+		A4EE34401F6486E7003A22BD /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34351F6486E7003A22BD /* hash.c */; };
+		A4EE34411F6486E7003A22BD /* oaes_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = A4EE34381F6486E7003A22BD /* oaes_lib.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4EE33FC1F648627003A22BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4EE33FE1F648627003A22BD /* miner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = miner; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EE34011F648627003A22BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4EE34081F64864B003A22BD /* compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat.h; sourceTree = "<group>"; };
+		A4EE34091F64864B003A22BD /* cpuminer-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cpuminer-config.h"; sourceTree = "<group>"; };
+		A4EE340A1F64864B003A22BD /* cryptonight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cryptonight.h; sourceTree = "<group>"; };
+		A4EE340B1F64864B003A22BD /* elist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elist.h; sourceTree = "<group>"; };
+		A4EE340C1F64864B003A22BD /* miner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miner.h; sourceTree = "<group>"; };
+		A4EE340D1F64864B003A22BD /* cpu-miner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "cpu-miner.c"; sourceTree = "<group>"; };
+		A4EE340E1F64864B003A22BD /* cryptonight_aesni.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cryptonight_aesni.c; sourceTree = "<group>"; };
+		A4EE340F1F64864B003A22BD /* cryptonight_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cryptonight_common.c; sourceTree = "<group>"; };
+		A4EE34101F64864B003A22BD /* cryptonight_lobotomized.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cryptonight_lobotomized.c; sourceTree = "<group>"; };
+		A4EE34111F64864B003A22BD /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		A4EE34171F6486D6003A22BD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		A4EE34181F6486D6003A22BD /* hashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable.h; sourceTree = "<group>"; };
+		A4EE34191F6486D6003A22BD /* jansson_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_private.h; sourceTree = "<group>"; };
+		A4EE341A1F6486D6003A22BD /* jansson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson.h; sourceTree = "<group>"; };
+		A4EE341B1F6486D6003A22BD /* strbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strbuffer.h; sourceTree = "<group>"; };
+		A4EE341C1F6486D6003A22BD /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		A4EE341D1F6486D6003A22BD /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		A4EE341E1F6486D6003A22BD /* dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dump.c; sourceTree = "<group>"; };
+		A4EE341F1F6486D6003A22BD /* hashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashtable.c; sourceTree = "<group>"; };
+		A4EE34201F6486D6003A22BD /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
+		A4EE34211F6486D6003A22BD /* strbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strbuffer.c; sourceTree = "<group>"; };
+		A4EE34221F6486D6003A22BD /* utf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf.c; sourceTree = "<group>"; };
+		A4EE34231F6486D6003A22BD /* value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
+		A4EE342A1F6486E7003A22BD /* c_blake256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_blake256.c; sourceTree = "<group>"; };
+		A4EE342B1F6486E7003A22BD /* c_blake256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_blake256.h; sourceTree = "<group>"; };
+		A4EE342C1F6486E7003A22BD /* c_groestl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_groestl.c; sourceTree = "<group>"; };
+		A4EE342D1F6486E7003A22BD /* c_groestl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_groestl.h; sourceTree = "<group>"; };
+		A4EE342E1F6486E7003A22BD /* c_jh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_jh.c; sourceTree = "<group>"; };
+		A4EE342F1F6486E7003A22BD /* c_jh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_jh.h; sourceTree = "<group>"; };
+		A4EE34301F6486E7003A22BD /* c_keccak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_keccak.c; sourceTree = "<group>"; };
+		A4EE34311F6486E7003A22BD /* c_keccak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_keccak.h; sourceTree = "<group>"; };
+		A4EE34321F6486E7003A22BD /* c_skein.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_skein.c; sourceTree = "<group>"; };
+		A4EE34331F6486E7003A22BD /* c_skein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_skein.h; sourceTree = "<group>"; };
+		A4EE34341F6486E7003A22BD /* groestl_tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = groestl_tables.h; sourceTree = "<group>"; };
+		A4EE34351F6486E7003A22BD /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		A4EE34361F6486E7003A22BD /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		A4EE34371F6486E7003A22BD /* oaes_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oaes_config.h; sourceTree = "<group>"; };
+		A4EE34381F6486E7003A22BD /* oaes_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oaes_lib.c; sourceTree = "<group>"; };
+		A4EE34391F6486E7003A22BD /* oaes_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oaes_lib.h; sourceTree = "<group>"; };
+		A4EE343A1F6486E7003A22BD /* skein_port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skein_port.h; sourceTree = "<group>"; };
+		A4EE34421F6487D5003A22BD /* hash-ops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hash-ops.h"; sourceTree = "<group>"; };
+		A4EE34431F64881A003A22BD /* int-util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "int-util.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4EE33FB1F648627003A22BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4EE33F51F648627003A22BD = {
+			isa = PBXGroup;
+			children = (
+				A4EE34001F648627003A22BD /* miner */,
+				A4EE33FF1F648627003A22BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4EE33FF1F648627003A22BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE33FE1F648627003A22BD /* miner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4EE34001F648627003A22BD /* miner */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE34431F64881A003A22BD /* int-util.h */,
+				A4EE34421F6487D5003A22BD /* hash-ops.h */,
+				A4EE342A1F6486E7003A22BD /* c_blake256.c */,
+				A4EE342B1F6486E7003A22BD /* c_blake256.h */,
+				A4EE342C1F6486E7003A22BD /* c_groestl.c */,
+				A4EE342D1F6486E7003A22BD /* c_groestl.h */,
+				A4EE342E1F6486E7003A22BD /* c_jh.c */,
+				A4EE342F1F6486E7003A22BD /* c_jh.h */,
+				A4EE34301F6486E7003A22BD /* c_keccak.c */,
+				A4EE34311F6486E7003A22BD /* c_keccak.h */,
+				A4EE34321F6486E7003A22BD /* c_skein.c */,
+				A4EE34331F6486E7003A22BD /* c_skein.h */,
+				A4EE34341F6486E7003A22BD /* groestl_tables.h */,
+				A4EE34351F6486E7003A22BD /* hash.c */,
+				A4EE34361F6486E7003A22BD /* hash.h */,
+				A4EE34371F6486E7003A22BD /* oaes_config.h */,
+				A4EE34381F6486E7003A22BD /* oaes_lib.c */,
+				A4EE34391F6486E7003A22BD /* oaes_lib.h */,
+				A4EE343A1F6486E7003A22BD /* skein_port.h */,
+				A4EE34171F6486D6003A22BD /* config.h */,
+				A4EE34181F6486D6003A22BD /* hashtable.h */,
+				A4EE34191F6486D6003A22BD /* jansson_private.h */,
+				A4EE341A1F6486D6003A22BD /* jansson.h */,
+				A4EE341B1F6486D6003A22BD /* strbuffer.h */,
+				A4EE341C1F6486D6003A22BD /* utf.h */,
+				A4EE341D1F6486D6003A22BD /* util.h */,
+				A4EE341E1F6486D6003A22BD /* dump.c */,
+				A4EE341F1F6486D6003A22BD /* hashtable.c */,
+				A4EE34201F6486D6003A22BD /* load.c */,
+				A4EE34211F6486D6003A22BD /* strbuffer.c */,
+				A4EE34221F6486D6003A22BD /* utf.c */,
+				A4EE34231F6486D6003A22BD /* value.c */,
+				A4EE34081F64864B003A22BD /* compat.h */,
+				A4EE34091F64864B003A22BD /* cpuminer-config.h */,
+				A4EE340A1F64864B003A22BD /* cryptonight.h */,
+				A4EE340B1F64864B003A22BD /* elist.h */,
+				A4EE340C1F64864B003A22BD /* miner.h */,
+				A4EE340D1F64864B003A22BD /* cpu-miner.c */,
+				A4EE340E1F64864B003A22BD /* cryptonight_aesni.c */,
+				A4EE340F1F64864B003A22BD /* cryptonight_common.c */,
+				A4EE34101F64864B003A22BD /* cryptonight_lobotomized.c */,
+				A4EE34111F64864B003A22BD /* util.c */,
+				A4EE34011F648627003A22BD /* main.m */,
+			);
+			path = miner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4EE33FD1F648627003A22BD /* miner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EE34051F648627003A22BD /* Build configuration list for PBXNativeTarget "miner" */;
+			buildPhases = (
+				A4EE33FA1F648627003A22BD /* Sources */,
+				A4EE33FB1F648627003A22BD /* Frameworks */,
+				A4EE33FC1F648627003A22BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = miner;
+			productName = miner;
+			productReference = A4EE33FE1F648627003A22BD /* miner */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4EE33F61F648627003A22BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lezyne;
+				TargetAttributes = {
+					A4EE33FD1F648627003A22BD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4EE33F91F648627003A22BD /* Build configuration list for PBXProject "miner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4EE33F51F648627003A22BD;
+			productRefGroup = A4EE33FF1F648627003A22BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4EE33FD1F648627003A22BD /* miner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4EE33FA1F648627003A22BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EE34281F6486D6003A22BD /* utf.c in Sources */,
+				A4EE34251F6486D6003A22BD /* hashtable.c in Sources */,
+				A4EE34141F64864B003A22BD /* cryptonight_common.c in Sources */,
+				A4EE34131F64864B003A22BD /* cryptonight_aesni.c in Sources */,
+				A4EE343F1F6486E7003A22BD /* c_skein.c in Sources */,
+				A4EE34121F64864B003A22BD /* cpu-miner.c in Sources */,
+				A4EE34021F648627003A22BD /* main.m in Sources */,
+				A4EE34401F6486E7003A22BD /* hash.c in Sources */,
+				A4EE34151F64864B003A22BD /* cryptonight_lobotomized.c in Sources */,
+				A4EE343B1F6486E7003A22BD /* c_blake256.c in Sources */,
+				A4EE34241F6486D6003A22BD /* dump.c in Sources */,
+				A4EE34411F6486E7003A22BD /* oaes_lib.c in Sources */,
+				A4EE34271F6486D6003A22BD /* strbuffer.c in Sources */,
+				A4EE343D1F6486E7003A22BD /* c_jh.c in Sources */,
+				A4EE343C1F6486E7003A22BD /* c_groestl.c in Sources */,
+				A4EE34291F6486D6003A22BD /* value.c in Sources */,
+				A4EE34261F6486D6003A22BD /* load.c in Sources */,
+				A4EE34161F64864B003A22BD /* util.c in Sources */,
+				A4EE343E1F6486E7003A22BD /* c_keccak.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4EE34031F648627003A22BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4EE34041F648627003A22BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4EE34061F648627003A22BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4EE34071F648627003A22BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4EE33F91F648627003A22BD /* Build configuration list for PBXProject "miner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EE34031F648627003A22BD /* Debug */,
+				A4EE34041F648627003A22BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EE34051F648627003A22BD /* Build configuration list for PBXNativeTarget "miner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EE34061F648627003A22BD /* Debug */,
+				A4EE34071F648627003A22BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4EE33F61F648627003A22BD /* Project object */;
+}
